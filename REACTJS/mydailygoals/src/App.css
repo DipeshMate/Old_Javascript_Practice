@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+nav{
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+    font: 200 1.3rem "sans-serif";
+}
+.container{
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    min-height: 100vh;
+    background-color: lightslategray;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 18px;
+    width: 100%;
+    font: 900 1.3rem 'Sans-Serif';
+    background-color: rgb(230, 234, 237);
+    border: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+input,textarea{
+    padding: 20px;
+    width: 96%;
+    margin: 10px;
+    font: 100 1.2rem 'Sans-Serif';
+    background-color: rgb(223, 228, 232);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+#getTask{
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    font: 100 1.2rem 'Sans-Serif';
+    background-color: rgb(12, 12, 12);
+    color: rgb(88, 125, 158);
+    border: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+#getTask:hover{
+    background-color: rgb(47, 86, 88);
+}
+
+.task{
+    margin: 2vmax;
+    background-color: rgb(223, 228, 232);
+    font: 100 1.2rem 'Sans-Serif';
+    padding: 20px;
+    color: rgba(25, 25, 25, 0.711);
+    display: flex;
+    align-items: center;
+}
+.task div{
+    width: 100%;
+    padding: 10px;
+}
+/* .task span{
+color: black;
+} */
+.deleteButton{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size: 1.6rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: brown;
+
+}
+button{
+    background-color: rgba(12, 12, 12, 0.649);
+    color: aliceblue;
+    padding: 10px;
+    transition: all 0.3s;
+}
+button:hover{
+    background-color: rgb(5, 80, 137);
+}
