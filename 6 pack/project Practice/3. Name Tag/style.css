@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: azure;
+}
+
+.container{
+    padding: 20px;
+    margin: auto;
+    min-height: 100vh;
+    width: 80%;
+    background-color: rgb(226, 203, 157);
+}
+
+input{
+    padding: 22px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid rgb(45, 45,74);
+    outline: none;
+    font: 100 1.3rem "Sans-Serif";
+}
+button{
+    cursor: pointer;
+    padding: 16px;
+    width: 19%;
+    border-radius: 1px;
+    outline: none;
+    font: 100 1.3rem "Lucida Sans";
+    color: #fff;
+    background-color: rgb(127, 152, 173);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s;
+}
+button:hover{
+    background-color: rgb(87, 133, 171);
+}
+
+
+.tags{
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tag{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(45, 45,74);
+    width: 30%;
+    color: #fff;
+    background-color: brown;
+    font-family: cursive;
+    transition: all 0.5s;
+}
+.tag:hover{
+    transform: translateY(-10px);
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>storage Practice</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: rgb(124, 127, 117);
+            width: 80%;
+            min-height: 100vh;
+            margin: auto;
+        }
+        #inputID{
+        padding: 20px;
+        margin: 20px;
+        border: none;
+        border-radius: 4px;
+        color: rgb(28, 27, 27);
+        background-color: beige;
+        font: 100 1.2rem 'Gill Sans';       
+        }
+        #check,#delete{
+        padding: 20px;
+        margin: auto;
+        border: none;
+        border-radius: 4px;
+        color: rgb(28, 27, 27);
+        background-color: beige;
+        font: 100 1.2rem 'Gill Sans';
+        cursor: pointer;
+        transition: all 0.4s;
+        }
+        #check:hover{
+            background-color: cornflowerblue;
+        }
+        #delete{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <input type="text" id="inputID"
+    placeholder="Enter Your Name">
+    <button id="check">Check</button>
+    <button id="delete">Delete</button>
+    </div>
+</body>
+<script src="session.js"></script>
+</html>

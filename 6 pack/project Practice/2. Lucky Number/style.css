@@ -1,0 +1,30 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-shadow: none;
+}
+h1{
+    text-align: center;
+    background-color: rgb(93, 102, 110);
+    color: rgb(237, 233, 227);
+    margin: 20px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+select, button{
+cursor: pointer;
+outline: none;
+border: none;
+background-color: black;
+color: cadetblue;
+padding: 5px;
+margin: 20px 0px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font: 100 1.3rem sans-serif ;
+}
+button{
+
+transition: background-color 0.5s;
+}
+button:hover{
+    background-color: aqua;
+}

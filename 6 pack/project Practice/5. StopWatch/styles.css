@@ -1,0 +1,33 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+.container{
+    background-color: black;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+    margin: 8px;
+}
+
+.clock{
+    color: aliceblue;
+    font-size: 4rem;
+    margin: 5px;
+}
+.stopwatch-btn >button{
+padding: 1rem;
+width: 110px;
+border: none;
+border-radius: 50px;
+font: 100 1.5rem "Sans-serif";
+margin: 10px;
+}

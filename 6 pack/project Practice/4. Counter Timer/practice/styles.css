@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    text-decoration: none;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 87, 51);
+}
+h1{
+    letter-spacing: 0.7rem;
+    color: aliceblue;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    font: 500 2rem "Sans-Serif";
+} 
+.counterTimer{
+    color: azure;
+    display: flex;
+}
+.counterTimer>p{
+    color: azure;
+    padding: 1rem;
+    text-transform: uppercase;}
+.counterTimer > p > span{
+    display: block;
+    font-size: 4rem;
+}
